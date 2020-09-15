@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8df60544-444f-4587-babc-40aa45f74f34</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Assets/Create Asset')</defaultValue>
+      <description></description>
+      <id>5e02d1c2-6288-4475-bb66-1b42906e7498</id>
+      <masked>false</masked>
+      <name>AssetType</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Effective Crest Level (mAOD) _e____f7_a0cd74</name>
+   <tag></tag>
+   <elementGuidId>4be13673-bd0a-40b7-a9e5-b6cc230680b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @title = 'Effective Crest Level (mAOD): ** value of: ' and @ref_element = 'Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/iframe_Asset Description_detailsObj']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Effective Crest Level (mAOD): ** value of: </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control amxdata-form-control waf-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>javascript: updateCurrentFocusedControl('e____f79cf813-3fe2-4399-af2c-ab7fd607acda')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/iframe_Asset Description_detailsObj</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='col_e____f79cf813-3fe2-4399-af2c-ab7fd607acda____1637351739477979842']/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[9]/td[4]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

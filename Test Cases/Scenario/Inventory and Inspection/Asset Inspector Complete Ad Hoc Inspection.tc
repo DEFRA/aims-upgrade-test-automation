@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-51</description>
+   <name>Asset Inspector Complete Ad Hoc Inspection</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>658c74f5-3851-4907-a591-0213dba448ca</testCaseGuid>
+</TestCaseEntity>

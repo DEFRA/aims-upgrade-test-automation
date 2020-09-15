@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Buildings and Compounds ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b5be17a8-2489-4d6d-9476-994e2639d3a1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Amenity+Building</data>
+   <data>Boathouse</data>
+   <data>Control+Building</data>
+   <data>Fish+Hut</data>
+   <data>Garage</data>
+   <data>Gauging+Station+Building</data>
+   <data>Lab+Building</data>
+   <data>Maintenance+Building</data>
+   <data>Monitoring+Building</data>
+   <data>Office+Building</data>
+   <data>Pump+House</data>
+   <data>Residential+Building</data>
+   <data>Shelter</data>
+   <data>Temporary+Barrier+Storage+Location</data>
+   <data>Visitor+Centre</data>
+   <data>Watermill</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>16</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

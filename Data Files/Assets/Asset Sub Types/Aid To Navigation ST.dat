@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Aid To Navigation ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>5ecb009e-c76f-4e07-97d0-8ddf0a6b0b44</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Beacon</data>
+   <data>Boat+Lift</data>
+   <data>Boatroller</data>
+   <data>Buoy</data>
+   <data>Canoe+Pass</data>
+   <data>Canoe+Portage+Point</data>
+   <data>Dock</data>
+   <data>Dolphin</data>
+   <data>Landing</data>
+   <data>Lock</data>
+   <data>Lock+Island</data>
+   <data>Mooring</data>
+   <data>Navigation+Boom</data>
+   <data>Navigation+Signage</data>
+   <data>Signal</data>
+   <data>Warning+Flag</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>16</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

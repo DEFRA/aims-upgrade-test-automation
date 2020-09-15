@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Log In</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>802000c2-2711-4c5c-bf5a-7f5d013d9573</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Authentication/Environment')</defaultValue>
+      <description></description>
+      <id>553396c8-3910-4e23-aa2f-dcb1e4716464</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Authentication/Users')</defaultValue>
+      <description></description>
+      <id>d81c4a37-6f2e-4474-ba15-b5696950765c</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Authentication/Users')</defaultValue>
+      <description></description>
+      <id>3eb584cd-a5a6-4bc7-92f6-5c41b4544c9a</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

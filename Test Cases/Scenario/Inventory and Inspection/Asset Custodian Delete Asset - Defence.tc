@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-44</description>
+   <name>Asset Custodian Delete Asset - Defence</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>6ebcf537-f72a-4091-a9e7-3f6a4a5d2d6e</testCaseGuid>
+</TestCaseEntity>

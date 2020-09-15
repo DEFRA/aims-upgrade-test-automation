@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae81c0f6-c0dc-48d0-a246-698c89f9b230</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Authentication/Users').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>7ff14257-b51a-4665-b9af-3a9c06b79393</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Complete Inspection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f62f805-ebc1-491d-a5c8-c7c7259bb367</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>ac6cec85-c65d-49b3-a70e-a3078d775fa1</id>
+      <masked>false</masked>
+      <name>InspectionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>a7bf0f95-3775-47fe-a642-d27b47d208ca</id>
+      <masked>false</masked>
+      <name>InspectionSchedule</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>f99b45b7-7274-4ccf-a67a-b0d48cee4256</id>
+      <masked>false</masked>
+      <name>InspectionGroup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Assets/Asset Sub Types/Channel ST')</defaultValue>
+      <description></description>
+      <id>4e45ddc1-9194-432f-8dae-d2ae16232d08</id>
+      <masked>false</masked>
+      <name>AssetSubType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Condition')</defaultValue>
+      <description></description>
+      <id>7700ecf6-3479-499c-a2ed-09e85075445f</id>
+      <masked>false</masked>
+      <name>InspectionCondition</name>
+   </variable>
+</TestCaseEntity>

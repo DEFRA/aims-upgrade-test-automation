@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-32</description>
+   <name>Edit Asset - Channel</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>62114153-87d1-419b-88e2-e3514852be56</testCaseGuid>
+</TestCaseEntity>

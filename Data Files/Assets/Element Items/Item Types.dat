@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Item Types</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>48522333-9423-4069-a038-a819f5d43f96</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Access+Point</data>
+   <data>Access+Strip</data>
+   <data>Cabinet</data>
+   <data>Chamber</data>
+   <data>Fixings</data>
+   <data>Inlet</data>
+   <data>Internal+Features</data>
+   <data>Ladder</data>
+   <data>Maintenance+Hole</data>
+   <data>Outlet</data>
+   <data>Padlock+or+Lock</data>
+   <data>Pipe</data>
+   <data>Pipework</data>
+   <data>Pump+Out+Point</data>
+   <data>Seals</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Item</name>
+      <size>15</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

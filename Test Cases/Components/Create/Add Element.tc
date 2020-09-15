@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Element</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1305a1b5-d977-4065-a953-8a32cea017f8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Assets/Element Items/Item Types')</defaultValue>
+      <description></description>
+      <id>e7a01921-d806-453a-92c9-cfac2ba65dd1</id>
+      <masked>false</masked>
+      <name>ElementType</name>
+   </variable>
+</TestCaseEntity>

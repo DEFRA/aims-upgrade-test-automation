@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete IMU Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f80ca8c7-7f2e-4d1e-9b4e-65a535594781</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Authentication/Users').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>fdbaae13-e8cd-4a32-a441-854643ee8346</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

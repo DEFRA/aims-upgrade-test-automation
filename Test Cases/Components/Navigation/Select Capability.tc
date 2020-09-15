@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Capability</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85e96506-4eab-4a0a-9e55-a81ee8ab051b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Navigation/SelectCapability')</defaultValue>
+      <description></description>
+      <id>de15d4f0-a15d-4ae9-891c-481df53e8d16</id>
+      <masked>false</masked>
+      <name>temp</name>
+   </variable>
+</TestCaseEntity>

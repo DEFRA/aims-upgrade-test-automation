@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-102</description>
+   <name>Asset Manager Raise Defect - Embankment</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>d4207412-980d-4332-9dc3-832822b32a43</testCaseGuid>
+</TestCaseEntity>

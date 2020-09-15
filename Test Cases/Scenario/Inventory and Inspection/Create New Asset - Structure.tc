@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-28</description>
+   <name>Create New Asset - Structure</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>d6c54201-badb-40a9-8229-d85774ffebc6</testCaseGuid>
+</TestCaseEntity>

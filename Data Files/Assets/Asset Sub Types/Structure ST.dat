@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Structure ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c43d90ac-b819-436b-8dd4-b26a5d1f9a04</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Cableway</data>
+   <data>Central+Pier</data>
+   <data>Control+Gate</data>
+   <data>Debris+Boom</data>
+   <data>Debris+Screen</data>
+   <data>Draw+Off+Tower</data>
+   <data>Eel+Pass</data>
+   <data>Fish+or+Eel+Barrier</data>
+   <data>Fish+Pass</data>
+   <data>Fishing+Cage</data>
+   <data>Fishing+Platform</data>
+   <data>In+Channel+Stoplogs</data>
+   <data>Inspection+Chamber</data>
+   <data>Jetty</data>
+   <data>Lamprey+Pass</data>
+   <data>Outfall</data>
+   <data>Pier</data>
+   <data>Ramp</data>
+   <data>Sand+Bagging+Equipment</data>
+   <data>Sand+Trap</data>
+   <data>Security+Screen</data>
+   <data>Slipway</data>
+   <data>Steps</data>
+   <data>Stilling+Basin</data>
+   <data>Stilling+Well</data>
+   <data>Surface+Water+Tank</data>
+   <data>Vortex+Flow+Control</data>
+   <data>Water+Abstration+Borehole</data>
+   <data>Water+Baffles</data>
+   <data>Water+Distribution+Pipeline</data>
+   <data>Water+Monitoring+Borehole</data>
+   <data>Weir</data>
+   <data>Well</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>33</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>SelectCapability</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0e197289-8329-4e9b-ba69-1054dcce0139</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>inventory_and_inspections</data>
+   <data>allocation</data>
+   <data>organisations_and_finance</data>
+   <data>knowledge_base</data>
+   <data>test_maintenance_section</data>
+   <data>consultation_testing</data>
+   <data>settings</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Capability</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

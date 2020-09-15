@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-27</description>
+   <name>Create New Asset - Land</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>1bda559f-20dc-4633-af3f-20257e623f72</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Asset Complex ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>bcad1ea4-ec8e-4728-9379-c4666fa259df</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Biodiversity+and+Environmental+Conservation</data>
+   <data>Complex+Beach+Structure</data>
+   <data>Complex+Defence</data>
+   <data>Complex+Structure</data>
+   <data>Control+Structure</data>
+   <data>Erosion+Protection</data>
+   <data>Fish+Farm</data>
+   <data>Fish+Hatchery</data>
+   <data>Flood+Alleviation+Scheme</data>
+   <data>Harbour</data>
+   <data>Lock+Complex</data>
+   <data>Monitoring+Station</data>
+   <data>Navigation+Complex</data>
+   <data>Pumping+Station</data>
+   <data>Recreational+Complex</data>
+   <data>Reservoir</data>
+   <data>Tidal+Barrier</data>
+   <data>Water+Level+and+Flow+Monitoring+Complex</data>
+   <data>Water+Monitoring+Station</data>
+   <data>Water+Transfer+Scheme</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>20</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

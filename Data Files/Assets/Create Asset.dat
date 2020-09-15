@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Create Asset</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4b497842-0ff2-4d64-b96b-18a1e97adf94</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Aids+to+Navigation</data>
+   <data>Amenities</data>
+   <data>Asset+Complex</data>
+   <data>Beach+Structure</data>
+   <data>Buildings+and+Compounds</data>
+   <data>Channel</data>
+   <data>Channel+Crossings</data>
+   <data>Defence</data>
+   <data>Instruments</data>
+   <data>Land</data>
+   <data>Mechanical+and+Electrical</data>
+   <data>Public+Safety</data>
+   <data>Structure</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Asset Type</name>
+      <size>13</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

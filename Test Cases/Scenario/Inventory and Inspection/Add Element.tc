@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-34</description>
+   <name>Add Element</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>a9f4c1fc-591a-45fa-b767-60c225cfee42</testCaseGuid>
+</TestCaseEntity>

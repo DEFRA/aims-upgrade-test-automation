@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-91</description>
+   <name>Asset Custodian Change Asset Type - Defence</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>c8ab1b3a-65f1-4f10-9715-cb0eb3433eea</testCaseGuid>
+</TestCaseEntity>

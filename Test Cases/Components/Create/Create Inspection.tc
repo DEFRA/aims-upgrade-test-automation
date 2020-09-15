@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Inspection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f58b82a-ae7d-41ec-a404-141a06f6505e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>52be324c-b2f0-4bb4-bed0-e82756208486</id>
+      <masked>false</masked>
+      <name>InspectionType</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-27</description>
+   <name>Asset Manager Delete IMU Visual Inspection Asset</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>d42868b8-86bb-4f4e-90da-1f6e338687d8</testCaseGuid>
+</TestCaseEntity>

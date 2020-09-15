@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-44</description>
+   <name>Create New Asset - Defence</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>a04f9204-e1de-4a10-bfa9-550875307919</testCaseGuid>
+</TestCaseEntity>

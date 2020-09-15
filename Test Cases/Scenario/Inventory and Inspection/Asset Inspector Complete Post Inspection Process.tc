@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-51</description>
+   <name>Asset Inspector Complete Post Inspection Process</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>a79fa659-2702-4504-956e-b1ac2f6ee007</testCaseGuid>
+</TestCaseEntity>

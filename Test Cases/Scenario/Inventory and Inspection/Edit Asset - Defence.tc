@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-45
+AUCT-30</description>
+   <name>Edit Asset - Defence</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>279d2ab1-c2d9-4762-abbb-56672565ccd4</testCaseGuid>
+</TestCaseEntity>

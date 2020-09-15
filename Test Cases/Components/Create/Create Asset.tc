@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c04921c6-72f7-4ffb-ac74-203b89f003f7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Assets/Create Asset')</defaultValue>
+      <description></description>
+      <id>75037ed1-6e91-4259-8fd6-23495bc63cae</id>
+      <masked>false</masked>
+      <name>AssetType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Assets/Create Asset')</defaultValue>
+      <description></description>
+      <id>5103693e-7b25-46cc-b67c-4a97870b1b7e</id>
+      <masked>false</masked>
+      <name>SubType</name>
+   </variable>
+</TestCaseEntity>

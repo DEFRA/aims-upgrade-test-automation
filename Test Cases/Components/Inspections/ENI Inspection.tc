@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ENI Inspection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1ea34e0-1c6a-4c4a-9f16-adfaebb544fd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>8eaf56a0-beda-4b0d-9325-04a11c59c4ba</id>
+      <masked>false</masked>
+      <name>InspectionType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>f71e6ee3-e20e-480f-bec0-7c5437c41d27</id>
+      <masked>false</masked>
+      <name>InspectionSchedule</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Inspections/Inspection Type')</defaultValue>
+      <description></description>
+      <id>65f16924-d503-4f45-bd58-57fe9f3ddadd</id>
+      <masked>false</masked>
+      <name>InspectionGroup</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Mechanical and Electrical ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>67c986f9-fb6c-49c5-8bb4-b222afb5e35d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Automation+Controls</data>
+   <data>Engine</data>
+   <data>Generator</data>
+   <data>High+Voltage+Electrical+Equipment</data>
+   <data>Hydraulic+System</data>
+   <data>Motor</data>
+   <data>Motor+Control+Centre+Controls</data>
+   <data>Power+Transmission</data>
+   <data>Pressure+System</data>
+   <data>Pump</data>
+   <data>Solar+Farm</data>
+   <data>Wind+Power+Generator</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>12</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

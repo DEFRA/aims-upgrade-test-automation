@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-65</description>
+   <name>Asset Manager Create Spatial Data Complex Asset</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>c521e01c-e30a-4aa7-b018-cf606da868c5</testCaseGuid>
+</TestCaseEntity>

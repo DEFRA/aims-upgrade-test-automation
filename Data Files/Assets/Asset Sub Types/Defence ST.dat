@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Defence ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>715090ea-85ff-4b42-acab-25f67cd5bc8e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Barrier+Beach</data>
+   <data>Beach</data>
+   <data>Bridge+Abutment</data>
+   <data>Cliff</data>
+   <data>Demountable+Defence</data>
+   <data>Dunes</data>
+   <data>Embankment</data>
+   <data>Engineered+High+Ground</data>
+   <data>Flood+Gate</data>
+   <data>Natural+High+Ground</data>
+   <data>Promenade</data>
+   <data>Quay</data>
+   <data>Spillway</data>
+   <data>Wall</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>14</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

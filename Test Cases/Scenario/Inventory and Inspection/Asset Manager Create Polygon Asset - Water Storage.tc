@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-96</description>
+   <name>Asset Manager Create Polygon Asset - Water Storage</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>da0e6c29-4d94-4428-9d02-71fd2b9ced25</testCaseGuid>
+</TestCaseEntity>

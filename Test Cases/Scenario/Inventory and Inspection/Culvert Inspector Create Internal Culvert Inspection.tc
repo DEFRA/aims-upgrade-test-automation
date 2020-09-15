@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-54</description>
+   <name>Culvert Inspector Create Internal Culvert Inspection</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>cbf291ce-0271-4be3-ba9b-ce2426678486</testCaseGuid>
+</TestCaseEntity>

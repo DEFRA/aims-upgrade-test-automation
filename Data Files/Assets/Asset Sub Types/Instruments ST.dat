@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Instruments ST</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>221c925d-c944-4df2-9bd2-7c0c06e11f6d</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>CCTV+Camera+System</data>
+   <data>Flood+Warning+System</data>
+   <data>Gauge+Board</data>
+   <data>Instrumentation</data>
+   <data>Piezometer</data>
+   <data>Rain+Gauge</data>
+   <data>Sample+or+Survey+Point</data>
+   <data>Telemetry+System</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>SubType</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

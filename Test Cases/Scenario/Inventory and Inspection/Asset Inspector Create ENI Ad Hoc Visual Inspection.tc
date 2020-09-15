@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-51</description>
+   <name>Asset Inspector Create ENI Ad Hoc Visual Inspection</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>a1086270-830a-48d7-9805-6257f3137d4a</testCaseGuid>
+</TestCaseEntity>

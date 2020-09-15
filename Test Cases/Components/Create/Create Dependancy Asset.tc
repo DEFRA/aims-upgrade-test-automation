@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Dependancy Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdfed9d4-72c7-4aa3-b294-691c9a55a0c6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Assets/Create Asset')</defaultValue>
+      <description></description>
+      <id>9bf5b190-b324-4027-a543-4cf07477142f</id>
+      <masked>false</masked>
+      <name>AssetType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Assets/Create Asset')</defaultValue>
+      <description></description>
+      <id>fa2bc678-4b9e-4ef3-a983-2b5a78bc68af</id>
+      <masked>false</masked>
+      <name>SubType</name>
+   </variable>
+</TestCaseEntity>
