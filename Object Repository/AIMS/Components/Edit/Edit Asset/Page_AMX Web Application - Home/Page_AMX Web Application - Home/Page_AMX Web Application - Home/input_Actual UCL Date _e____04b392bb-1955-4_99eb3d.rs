@@ -6,16 +6,16 @@
    <elementGuidId>66e7c29d-8c52-4b83-b130-d69300294c4f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#e____04b392bb-1955-4e56-80f5-01d9456f2e18____1637351875248628820</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'e____04b392bb-1955-4e56-80f5-01d9456f2e18____1637351875248628820' and @type = 'text' and @id = 'e____04b392bb-1955-4e56-80f5-01d9456f2e18____1637351875248628820' and @ref_element = 'Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/iframe_Asset Description_detailsObj']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[4]/td[6]/input</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#e____04b392bb-1955-4e56-80f5-01d9456f2e18____1637351875248628820</value>
+         <value>/html/body/form/div[3]/div[2]/div[7]/div/div[3]/table/tbody/tr[4]/td[3]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -95,6 +95,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[4]/td[6]/input</value>
+      <value></value>
    </webElementXpaths>
 </WebElementEntity>

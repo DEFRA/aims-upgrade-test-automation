@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c808f404-9097-497f-ab84-71dd8fe79bc8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Search/OpenRecord')</defaultValue>
+      <description></description>
+      <id>40d501ef-fcc1-4516-861f-ce78dbb62570</id>
+      <masked>false</masked>
+      <name>OpenRecord</name>
+   </variable>
 </TestCaseEntity>

@@ -4,19 +4,21 @@
    <name>input_Current SOP Date</name>
    <tag></tag>
    <elementGuidId>40aa998c-a9df-4c4b-b8cd-dd488d7c4406</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>#e____09c81e01-d8a1-4052-8cde-e6aec46265df____1637351787352517102</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'form-control amxdata-form-control hasDatePicker hasDatepicker' and @ref_element = 'Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/iframe_Defect Status_detailsObj']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//tr[7]/td[4]/input</value>
+         <value>/html/body/form/div[3]/div[2]/div[7]/div/div[3]/table/tbody/tr[7]/td[3]/input</value>
       </entry>
       <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -96,6 +98,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[7]/td[4]/input</value>
+      <value></value>
    </webElementXpaths>
 </WebElementEntity>

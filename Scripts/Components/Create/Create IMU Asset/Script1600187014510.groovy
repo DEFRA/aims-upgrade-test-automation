@@ -69,7 +69,38 @@ WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU 
 
 WebUI.delay(2)
 
-IMUid = WebUI.getAttribute(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Reference_____e82e2a47-47f9-4a04-9ba7_32ef0c'),
-	'value')
+IMUid = WebUI.getAttribute(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Reference_____e82e2a47-47f9-4a04-9ba7_32ef0c'), 
+    'value')
 
 GlobalVariable.IMUid = IMUid
+
+WebUI.click(findTestObject('AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/button_Location'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/button_ADD'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/button_ADD'))
+
+WebUI.delay(2)
+
+//Postcode can be changed to anything valild
+WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/input_Search_locationSearchTextbox'), 
+    'CV37 6SN')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/button_Search'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/input_Search_btnSave'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/button_Create'))
+
+WebUI.delay(4)
+

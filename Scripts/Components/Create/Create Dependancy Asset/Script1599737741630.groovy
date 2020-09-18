@@ -16,6 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+not_run: if (WebUI.verifyElementVisible(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/span_Home'), 
+    FailureHandling.CONTINUE_ON_FAILURE) == true) {
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/span_Home'))
+
+    WebUI.delay(2)
+}
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/span_All Live Assets'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/button_Add'), 

@@ -165,5 +165,9 @@ if (AssetType == 'Asset Complex') {
         1)
 }
 
-not_run: WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/span_Home'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/span_Home'))
+
+WebUI.delay(2)
 

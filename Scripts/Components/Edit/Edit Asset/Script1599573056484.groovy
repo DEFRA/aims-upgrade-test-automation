@@ -33,27 +33,33 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_Flood Risk Management'))
 
-
 WebUI.delay(2)
 
 //Asset Complex does not require selection of this field
-
 if (AssetType != 'Asset Complex') {
-WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Protection Type _e____52b86f75_4e28_4_890d39'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_FluvialTidal'))
-WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/tr_DescriptionTest AutomationTarget Condition'))
-WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/textarea_Test Automation'), 
-    'Tested Automation Edited')
-WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Target Condition_e____c5a810cc_59b7_4_542066'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_1 - Very Good'))
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Protection Type _e____52b86f75_4e28_4_890d39'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_FluvialTidal'))
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/tr_DescriptionTest AutomationTarget Condition'))
+
+    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/textarea_Test Automation'), 
+        'Tested Automation Edited')
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Target Condition_e____c5a810cc_59b7_4_542066'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_1 - Very Good'))
 }
 
 if (AssetType == 'Asset Complex') {
-	WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Complex/Page_AMX Web Application - Home/input_Asset Description'), 'Test Automation Edited')
-
+    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Complex/Page_AMX Web Application - Home/input_Asset Description'), 
+        'Test Automation Edited')
 }
+
 WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/textarea_Comments_e____d8071954-74f8-4dfd-b_20e506'), 
     'Test Automation Edited')
 
@@ -166,10 +172,10 @@ if (AssetType == 'Defence') {
     WebUI.verifyElementPresent(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/li_Effective Crest Level DQF Date (Not vali_831839'), 
         1)
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/li_Verified Crest Levels (Not valid - must _326d5e'), 
+    not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/li_Verified Crest Levels (Not valid - must _326d5e'), 
         1)
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/li_Crest Level Date (Not valid - must conta_bc37b0'), 
+    not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/li_Crest Level Date (Not valid - must conta_bc37b0'), 
         1)
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/button_Dimensions'))
@@ -183,6 +189,8 @@ if (AssetType == 'Defence') {
         '5')
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Actual DCL DQF _e____094e9fe0_a3a1_49_bcd348'))
+
+    WebUI.delay(2)
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_1 - - 0.01m to 0.05m vertical accuracy (T_8ad1c7'))
 
@@ -198,11 +206,11 @@ if (AssetType == 'Defence') {
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_2 - - 0.05m to 0.15m vertical accuracy (T_cdf4bf'))
 
-    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Verified Crest Levels _e____91b0ba30__2d42d8'))
+    not_run: WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Verified Crest Levels _e____91b0ba30__2d42d8'))
 
-    WebUI.delay(2)
+    not_run: WebUI.delay(2)
 
-    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_2 - No'))
+    not_run: WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_2 - No'))
 
     WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Design UCL (mAOD) _e____d0f6b73e-8d06_962c2a'), 
         '5')

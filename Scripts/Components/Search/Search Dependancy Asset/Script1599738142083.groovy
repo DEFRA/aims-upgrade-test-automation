@@ -32,7 +32,10 @@ AssetSearch = WebUI.modifyObjectProperty(findTestObject('Object Repository/AIMS/
 not_run: AssetSearch = WebUI.modifyObjectProperty(findTestObject('Object Repository/AIMS/Components/Search/Search Asset/Page_AIMS-AMX - Home/div_782194'), 
     'text', 'equals', '782207', true)
 
+if (OpenRecord == 'True')
+{
 WebUI.click(AssetSearch)
+}
 
 WebUI.delay(2)
 

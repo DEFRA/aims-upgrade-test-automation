@@ -39,6 +39,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Element/Page_AMX Web Application - Home/a_Aluminium'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Element/Page_AMX Web Application - Home/input_Business Function _e____5777017b_b385_2f4300'))
 
 WebUI.delay(2)
