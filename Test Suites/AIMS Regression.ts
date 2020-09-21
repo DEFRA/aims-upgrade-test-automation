@@ -12,6 +12,18 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>651d3045-12d3-4d14-9d9f-6b04baeb3dbe</testSuiteGuid>
    <testCaseLink>
+      <guid>75428449-f4e3-4e1d-9c65-62a4baea84a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/Inventory and Inspection/Asset Inspector Create Ad Hoc Inspection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a407369-a2f5-4ee6-9760-a02ba285d2b4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/Inventory and Inspection/Asset Manager Create Spatial Data Complex Asset</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5e2db6ac-4f9a-470e-98bc-a5abeed03f3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -42,12 +54,6 @@
       <testCaseId>Test Cases/Scenario/Inventory and Inspection/Asset Inspector Complete Post Inspection Process</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>75428449-f4e3-4e1d-9c65-62a4baea84a2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario/Inventory and Inspection/Asset Inspector Create Ad Hoc Inspection</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2fc18984-0c30-4f5b-9d04-362f6d19a168</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -58,12 +64,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario/Inventory and Inspection/Asset Manager Create Polygon Asset - Water Storage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0a407369-a2f5-4ee6-9760-a02ba285d2b4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario/Inventory and Inspection/Asset Manager Create Spatial Data Complex Asset</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f95cdec2-b5a8-45e3-a526-697afae07445</guid>

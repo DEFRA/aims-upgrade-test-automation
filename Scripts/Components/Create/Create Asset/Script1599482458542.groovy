@@ -72,7 +72,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/input_Search_btnSave'))
 
-WebUI.delay(4)
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/button_Asset Owner _dropDownButton_e____a42_a9a11a'))
 
