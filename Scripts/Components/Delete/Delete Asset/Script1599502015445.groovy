@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Delete/Delete Asset/Page_AIMS-AMX - Home/i_Open In New Window_fal fa-trash-alt'))
 
-WebUI.setText(findTestObject('Object Repository/AIMS/Components/Delete/Delete Asset/Page_AIMS-AMX - Home/input_Password Required_TextBoxPassword'), 
+not_run: WebUI.setText(findTestObject('Object Repository/AIMS/Components/Delete/Delete Asset/Page_AIMS-AMX - Home/input_Password Required_TextBoxPassword'), 
     findTestData('Authentication/Users').getValue(2, 1))
 
 WebUI.delay(1)
@@ -33,5 +33,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Delete/Delete Asset/Page_AIMS-AMX - Home/input_This operation will delete_BtnDelete2'))
 
-WebUI.delay(1)
+WebUI.delay(4)
 

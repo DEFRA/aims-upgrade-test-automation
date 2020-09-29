@@ -18,17 +18,49 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.TestEnv)
+WebUI.navigateToUrl(GlobalVariable.Environment)
 
 WebUI.setText(findTestObject('Object Repository/AIMS/Log In/Page_Log in/input_User Name_UserName'), Username)
 
 WebUI.setText(findTestObject('Object Repository/AIMS/Log In/Page_Log in/input_Password_Password'), Password)
 
+WebUI.delay(2)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/AIMS/Log In/Page_Log in/input_WARNING_submitButton'), 15)
 
 WebUI.delay(2)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/AIMS/Log In/Page_Log in/span_Version 6.7.2857.0'))
-
 WebUI.click(findTestObject('Object Repository/AIMS/Log In/Page_Log in/input_WARNING_submitButton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Repository/AIMS/Log In/AD/Page_Sign in to your account/input_Sign in_loginfmt'), 'jon.hatfield@defradev.onmicrosoft.com')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/AIMS/Log In/AD/Page_Sign in to your account/input_Sign in_idSIButton9'))
+
+WebUI.delay(2)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/AIMS/Log In/AD/Page_Sign in to your account/input_Enter password_passwd'), 
+    '+LR8B84vOGJ1Jty4R01Xiw==')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('AIMS/Log In/AD/Page_Sign in to your account/input_Sign in_idSIButton9'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('AIMS/Log In/AD/Page_Sign in to your account/StaySignedIn'))
+
+WebUI.delay(2)
+
+if (WebUI.verifyElementClickable(findTestObject('AIMS/Log In/Page_AIMS-AMX - Home/input_If there was no error_btnCancel'), 
+    FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('AIMS/Log In/Page_AIMS-AMX - Home/input_If there was no error_btnCancel'))
+} else {
+    WebUI.click(findTestObject('AIMS/Log In/Page_AIMS-AMX - Home/Page_AIMS-AMX - Home/button_Refresh'))
+}
+
+WebUI.delay(5)
 

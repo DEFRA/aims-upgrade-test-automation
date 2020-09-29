@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-159</description>
+   <name>Create New Complex Asset</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>3afd1923-8049-4fc5-85b1-a656c134434a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AUCT-181</description>
+   <name>ONGOINGAsset Manager Can Schedule Post Inspection Action - Asset BRC</name>
+   <tag>Inventory and Inspection</tag>
+   <comment></comment>
+   <testCaseGuid>78fdc3eb-def5-4633-9285-047caa99d6bb</testCaseGuid>
+</TestCaseEntity>

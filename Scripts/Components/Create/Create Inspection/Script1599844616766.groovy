@@ -35,9 +35,9 @@ SelectInspectionType = WebUI.modifyObjectProperty(findTestObject('Object Reposit
 'Click on required Inspection Type'
 WebUI.click(SelectInspectionType)
 
-WebUI.delay(2)
+WebUI.delay(4)
 
-WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Create Inspection/Page_AMX Web Application - Home/input_Schedule Date _e____4e3cc39a-21f5-475_3f5123'), 
+not_run: WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Create Inspection/Page_AMX Web Application - Home/input_Schedule Date _e____4e3cc39a-21f5-475_3f5123'), 
     formattedDate)
 
 WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Create Inspection/Page_AMX Web Application - Home/textarea_Description  Instruction_e____577c_6f50bb'), 
@@ -70,18 +70,18 @@ WebUI.delay(2)
 formattedDateUS = mydate.format('MM/dd/yyyy')
 
 //Removes the leading 0 from the date
-String s = formattedDateUS;
-s = s.replaceFirst ("^0*", "");
+String s = formattedDateUS
+
+s = s.replaceFirst('^0*', '')
 
 System.out.println(formattedDateUS)
+
 System.out.println(s)
 
-InspectionTypeID = (InspectionType + ' - '+s)
+InspectionTypeID = ((InspectionType + ' - ') + s)
 
 SelectInspectionID = WebUI.modifyObjectProperty(findTestObject('Object Repository/AIMS/Components/Create/Create Inspection/Page_AMX Web Application - Home/a_Ad Hoc Visual Asset Inspection - 9162020'), 
     'text', 'equals', InspectionTypeID, true)
-
-
 
 System.out.println(InspectionTypeID)
 

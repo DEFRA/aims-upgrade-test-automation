@@ -16,11 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(2)
+
+if (WebUI.verifyElementPresent(findTestObject('AIMS/Components/Navigation/Page_AIMS-AMX - Home/HideNav'), 2, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('AIMS/Components/Navigation/Page_AIMS-AMX - Home/HideNav'))
+} else {
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Search/Search Asset/Page_AIMS-AMX - Home/input_Post Inspection Actions where BRC ove_135588'))
+}
+
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Navigation/Page_AIMS-AMX - Home/button_Inventory and Inspections'))
 
 //The capability to select is driven from the data table 'Select Capability' all the options are listed in the data table
 //When calling this test in another test specify the line number from the data table for the required capability
-
 findTestData('Navigation/SelectCapability').getValue(1, 1)
 
 capability = (('id("' + temp) + '")/div[@class="ng-binding"]')

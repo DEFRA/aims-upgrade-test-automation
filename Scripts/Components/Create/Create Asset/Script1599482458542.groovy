@@ -84,7 +84,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/a_Environment Agency'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 AMXid = WebUI.getAttribute(findTestObject('AIMS/Components/Create/Verifications/Page_AIMS-AMX - Home/Page_AIMS-AMX - Home/AMXid2'), 
     'value')

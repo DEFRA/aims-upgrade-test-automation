@@ -24,7 +24,7 @@ not_run: WebUI.setText(findTestObject('Object Repository/AIMS/Components/Search/
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Search/Search Asset/Page_AIMS-AMX - Home/button_Post Inspection Actions where BRC ov_6f865e'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 AssetSearch = WebUI.modifyObjectProperty(findTestObject('Object Repository/AIMS/Components/Search/Search Asset/Page_AIMS-AMX - Home/div_782194'), 
     'text', 'equals', GlobalVariable.AMXid, true)
@@ -34,5 +34,5 @@ not_run: AssetSearch = WebUI.modifyObjectProperty(findTestObject('Object Reposit
 
 WebUI.click(AssetSearch)
 
-WebUI.delay(2)
+WebUI.delay(4)
 

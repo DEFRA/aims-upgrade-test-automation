@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>AUCT-51</description>
+   <description>AUCT-24</description>
    <name>Asset Inspector Complete Ad Hoc Inspection</name>
    <tag>Inventory and Inspection</tag>
    <comment></comment>

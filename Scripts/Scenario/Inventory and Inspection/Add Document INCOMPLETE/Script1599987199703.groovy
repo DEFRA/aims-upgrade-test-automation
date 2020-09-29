@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Components/Authentication/Log In'), [('URL') : GlobalVariable.TestEnv, ('Username') : findTestData(
+WebUI.callTestCase(findTestCase('Components/Authentication/Log In'), [('URL') : GlobalVariable.Environment, ('Username') : findTestData(
             'Authentication/Users').getValue(1, 1), ('Password') : findTestData('Authentication/Users').getValue(2, 1)], 
     FailureHandling.STOP_ON_FAILURE)
 

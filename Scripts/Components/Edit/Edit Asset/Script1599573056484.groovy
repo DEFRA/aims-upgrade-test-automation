@@ -18,7 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 mydate = new Date()
 
-formattedDate = mydate.format('dd-MM-yyyy')
+formattedDate = mydate.format('dd')
+
+System.out.println(formattedDate)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/button_Edit'))
 
@@ -34,6 +36,10 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/a_Flood Risk Management'))
 
 WebUI.delay(2)
+
+DateToday = WebUI.modifyObjectProperty(findTestObject('AIMS/Components/Edit/Dates/Page_AIMS-AMX - Home/a_20'),
+	'text', 'equals', formattedDate, true)
+
 
 //Asset Complex does not require selection of this field
 if (AssetType != 'Asset Complex') {
@@ -101,8 +107,12 @@ if (AssetType == 'Defence') {
 
     WebUI.delay(2)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Current SOP Date'), 
-        formattedDate)
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Current SOP Date'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
 
     WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Design SOP _e____3b139a12-bbae-4df0-9_f2fe7e'), 
         '5')
@@ -115,8 +125,12 @@ if (AssetType == 'Defence') {
 
     WebUI.delay(2)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Design SOP DQF Date'), 
-        formattedDate)
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Design SOP DQF Date'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+	WebUI.click(DateToday)
 
     WebUI.delay(2)
 
@@ -227,27 +241,55 @@ if (AssetType == 'Defence') {
     WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/input_Required UCL (mAOD) _e____3e866e2a-9d_18aa8c'), 
         '5')
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual DCL Date _e____85b7451f-8fea-4_b84cb7'), 
-        formattedDate)
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual DCL Date _e____85b7451f-8fea-4_b84cb7'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual DCL DQF Date _e____7931e79e-b5_6459f9'), 
-        formattedDate)
+    WebUI.delay(2)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Effective Crest Level Date _e____76dd_467f9c'), 
-        formattedDate)
+    WebUI.click(DateToday)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Crest Level Date _e____7be220d8-fac1-_1ead70'), 
-        formattedDate)
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual DCL DQF Date _e____7931e79e-b5_6459f9'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual UCL Date _e____04b392bb-1955-4_99eb3d'), 
-        formattedDate)
+    WebUI.delay(2)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual UCL DQF Date _e____9b5617a5-30_1c58d0'), 
-        formattedDate)
+    WebUI.click(DateToday)
 
-    WebUI.setText(findTestObject('Object Repository/AIMS/Components/Edit/Page_AMX Web Application - Home/input_Effective Crest Level DQF Date _e_____fb402f'), 
-        formattedDate)
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Effective Crest Level Date _e____76dd_467f9c'), 
+        FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Crest Level Date _e____7be220d8-fac1-_1ead70'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual UCL Date _e____04b392bb-1955-4_99eb3d'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Actual UCL DQF Date _e____9b5617a5-30_1c58d0'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Page_AMX Web Application - Home/input_Effective Crest Level DQF Date _e_____fb402f'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
+	
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/button_Save'))
 
     WebUI.delay(5)
@@ -280,7 +322,7 @@ if (AssetType == 'Channel') {
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Page_AMX Web Application - Home/button_Details'))
 
-    WebUI.delay(2)
+    WebUI.delay(4)
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/input_Culvert Type _e____55412cbc_ba2c_4130_420cc2'))
 
@@ -288,15 +330,18 @@ if (AssetType == 'Channel') {
 
     WebUI.click(findTestObject('Object Repository/AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/a_Box'))
 
-    WebUI.delay(2)
+    WebUI.delay(4)
 
     WebUI.setText(findTestObject('AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Current SOP _e____bb06b32d-6e01-44c8-_66a9cf'), 
         '5')
 
     WebUI.delay(2)
 
-    WebUI.setText(findTestObject('AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Current SOP Date'), 
-        formattedDate)
+    WebUI.click(findTestObject('AIMS/Components/Edit/Dates/Page_AIMS-AMX - Home/input_Current SOP Date _e____09c81e01-d8a1-4052-8cde-e6aec46265df____1637366183029121236'))
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
 
     WebUI.setText(findTestObject('AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Design SOP _e____3b139a12-bbae-4df0-9_8683d5'), 
         '5')
@@ -309,8 +354,12 @@ if (AssetType == 'Channel') {
 
     WebUI.delay(2)
 
-    WebUI.setText(findTestObject('AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Current DQF Date'), 
-        formattedDate)
+    WebUI.click(findTestObject('AIMS/Components/Edit/Edit Asset/Channel/Page_AMX Web Application - Home/Page_AMX Web Application - Home/input_Current DQF Date'), 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.delay(2)
+
+    WebUI.click(DateToday)
 
     WebUI.delay(2)
 

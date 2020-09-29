@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://amxeatest.azurewebsites.net/Account/Login'</initValue>
+      <initValue>'https://amxaimsomtst01.azure.defra.cloud/Account/Login'</initValue>
       <name>TestEnv</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://amxaimsomtst01.azure.defra.cloud/Account/Login'</initValue>
+      <initValue>'https://amxeatest.azurewebsites.net/Account/Login'</initValue>
       <name>DevEnv</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

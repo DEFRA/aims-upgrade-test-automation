@@ -155,9 +155,9 @@ if (AssetSubType == 'Flood Gate') {
     WebUI.delay(2)
 
     InspectionCondition = WebUI.modifyObjectProperty(findTestObject('Object Repository/AIMS/Components/Inspection/Complete/Page_AMX Web Application - Home/a_1 - Very Good'), 
-    'text', 'equals', InspectionCondition, true)
-		
-	WebUI.click(InspectionCondition)
+        'text', 'equals', InspectionCondition, true)
+
+    WebUI.click(InspectionCondition)
 
     WebUI.delay(2)
 
@@ -173,6 +173,83 @@ if (AssetSubType == 'Flood Gate') {
     WebUI.delay(2)
 }
 
+if (AssetSubType == 'Barrier Beach') {
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/td_Crest'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_Edit'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/input_Condition_e____9daccc46_26c1_4357_8df_198763'))
+
+    WebUI.delay(2)
+
+    InspectionCondition = WebUI.modifyObjectProperty(findTestObject('Object Repository/AIMS/Components/Inspection/Complete/Page_AMX Web Application - Home/a_1 - Very Good'), 
+        'text', 'equals', InspectionCondition, true)
+
+    WebUI.click(InspectionCondition)
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_Save'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_ Back'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/td_Landward Face'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_Edit'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/input_Condition_e____9daccc46_26c1_4357_8df_198763'))
+
+    WebUI.delay(4)
+
+    WebUI.click(InspectionCondition)
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_Save'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_ Back'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/td_Seaward Face'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_Edit'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/input_Condition_e____9daccc46_26c1_4357_8df_198763'))
+
+    WebUI.delay(2)
+
+    WebUI.click(InspectionCondition)
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_Save'))
+
+    WebUI.delay(2)
+
+    WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/BRC/Page_AIMS-AMX - Home/button_ Back'))
+
+    WebUI.delay(2)
+}
+
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/Complete/Page_AMX Web Application - Home/button_Complete'))
 
 WebUI.delay(8)
@@ -184,4 +261,8 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/AIMS/Compone
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Inspection/Complete/Page_AMX Web Application - Home/button_Save'))
 
 WebUI.delay(6)
+
+WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Asset Aid to Navigation/Page_AIMS-AMX - Home/span_Home'))
+
+WebUI.delay(2)
 

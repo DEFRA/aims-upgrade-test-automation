@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>AUCT-51</description>
+   <description>AUCT-57</description>
    <name>Asset Inspector Create ENI Ad Hoc Visual Inspection</name>
    <tag>Inventory and Inspection</tag>
    <comment></comment>

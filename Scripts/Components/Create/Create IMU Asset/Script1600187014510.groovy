@@ -38,11 +38,17 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/a_WMD - West Midlands'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Name _e____da6a8e6f-9c30-49eb-a899-5e_d11a24'), 
     'Test Automation')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Description _e____57948ca4-2e8e-4c12-_9538be'), 
     'Test Automation')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Probability _e____7b6ca4c8_3816_4c39__7ffab3'))
 
@@ -50,11 +56,15 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/a_High'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Consequence _e____64fb164e_4d7c_4ea4__0de28c'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/a_Medium'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Default Inspector_e____db4b6876_148e__c835e0'))
 
@@ -62,17 +72,23 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/a_Jon Hatfield'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/textarea_Comments_e____232c67b8-b84b-483e-9_3a0ceb'), 
     'Test Automation')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/button_Create'))
 
 WebUI.delay(2)
 
-IMUid = WebUI.getAttribute(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Reference_____e82e2a47-47f9-4a04-9ba7_32ef0c'), 
+AMXid = WebUI.getAttribute(findTestObject('Object Repository/AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/input_Reference_____e82e2a47-47f9-4a04-9ba7_32ef0c'), 
     'value')
 
-GlobalVariable.IMUid = IMUid
+GlobalVariable.AMXid = AMXid
+
+System.out.println(AMXid)
 
 WebUI.click(findTestObject('AIMS/Components/Create/Create IMU Asset/Page_AMX Web Application - Home/button_Location'))
 
